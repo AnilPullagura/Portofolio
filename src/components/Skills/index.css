@@ -1,0 +1,179 @@
+.skills-main-container {
+  min-height: 100vh;
+  background-color: black;
+}
+@media (min-width: 768px) {
+  .skills-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+
+  .skill-item {
+    text-align: center;
+    padding: 10px;
+    color: rgb(65, 141, 255, 0.5);
+    margin-left: 20px;
+  }
+  .skill-icon {
+    height: 100px;
+    width: 100px;
+  }
+  .hire-me-container {
+    width: 80%;
+    margin: auto;
+  }
+  .hire-me-head {
+    font-size: 120px;
+  }
+  .hire-list {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 90px;
+  }
+  .hire-icon {
+    height: 60px;
+    width: 60px;
+    color: rgb(65, 141, 255, 0.7);
+  }
+  .icon-div {
+    padding: 30px;
+    border-radius: 1000px;
+    border: 2px solid rgb(65, 141, 255, 0.7);
+    background-color: rgb(65, 141, 255, 0.2);
+  }
+  .get-in-touch-box {
+    width: 90%;
+    margin: auto;
+  }
+  .get-touch-img {
+    height: 250px;
+  }
+  .get-in-touch-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 767px) {
+  .skills-container {
+    padding: 10px;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .skill-item {
+    color: rgb(65, 141, 255, 0.5);
+    padding: 10px;
+    text-align: center;
+  }
+  .skill-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .hire-me-head {
+    font-size: 70px;
+  }
+  .hire-list {
+    margin-top: 80px;
+    padding: 10px;
+    list-style-type: none;
+  }
+  .icon-div {
+    padding: 30px;
+    border-radius: 1000px;
+    border: 2px solid rgb(65, 141, 255, 0.7);
+    background-color: rgb(65, 141, 255, 0.2);
+  }
+  .hire-icon {
+    height: 30px;
+    width: 40px;
+    color: rgb(65, 141, 255, 0.7);
+  }
+  .get-touch-img {
+    height: 200px;
+  }
+  .get-in-touch-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+.skill-item:hover {
+  color: lime;
+}
+.hire-me-text {
+  color: aliceblue;
+}
+.hire-me-head {
+  text-shadow: 0px 0 1px #9c9c9c;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.hire-me-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin-top: 30px;
+}
+.hire-box {
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.hire-box:hover {
+  border: 1px solid #9c9c9c;
+  border-radius: 10px;
+  background-color: rgb(65, 141, 255, 0.1);
+}
+.hire-box-title {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 16px;
+}
+.hire-box-para {
+  color: #9c9c9c;
+  text-align: center;
+}
+.get-touch-container {
+  color: aqua;
+  margin-top: 30px;
+  background-color: #0f0f0f;
+  padding: 20px;
+}
+
+.get-touch-item {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: -30px;
+  gap: 20px;
+}
+.get-touch-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 1000px;
+  padding: 5px;
+  border: 1px solid #9c9c9c;
+}
+.phone {
+  color: #999999;
+}
+.number {
+  color: #b9b6b6;
+}

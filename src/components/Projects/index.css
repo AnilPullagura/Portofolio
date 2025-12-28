@@ -1,0 +1,53 @@
+@media (min-width: 768px) {
+  .project-main-container {
+    min-height: 100vh;
+    background-color: black;
+  }
+  .project-container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+  .project-container-mobile {
+    display: none;
+  }
+  .project-breif {
+    color: #9c9c9c;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+  .title {
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  .nav-link {
+    margin-left: 4px;
+    color: lime;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-main-container {
+    min-height: 100vh;
+    background-color: black;
+  }
+  .project-container {
+    display: none;
+  }
+  .pc-chrono {
+    display: none;
+  }
+  .project-breif {
+    color: #9c9c9c;
+    text-align: center;
+  }
+  .project-container-mobile {
+    margin-top: 20px;
+  }
+}
+.link-text {
+  font-size: 14px;
+  color: gray;
+}
