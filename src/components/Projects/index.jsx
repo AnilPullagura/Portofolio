@@ -32,8 +32,7 @@ const items = [
     media: {
       type: 'IMAGE',
       source: {
-        url:
-          'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838046/Screenshot_2025-12-27_174950_ejmc1g.png',
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838046/Screenshot_2025-12-27_174950_ejmc1g.png',
       },
     },
   },
@@ -42,8 +41,7 @@ const items = [
     media: {
       type: 'IMAGE',
       source: {
-        url:
-          'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838118/Screenshot_2025-12-27_175146_g3xqyr.png',
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838118/Screenshot_2025-12-27_175146_g3xqyr.png',
       },
     },
     cardDetailedText: (
@@ -74,8 +72,7 @@ const items = [
     media: {
       type: 'IMAGE',
       source: {
-        url:
-          'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838175/Screenshot_2025-12-27_175245_zcwiol.png',
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838175/Screenshot_2025-12-27_175245_zcwiol.png',
       },
     },
     cardDetailedText: (
@@ -104,47 +101,13 @@ const items = [
       </div>
     ),
   },
+
   {
     title: '2025',
     media: {
       type: 'IMAGE',
       source: {
-        url:
-          'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838352/Screenshot_2025-12-27_175538_xi9ebv.png',
-      },
-    },
-    cardDetailedText: (
-      <div className="chrono-box">
-        <h3 className="title">
-          <a
-            href="https://markyourtask.ccbp.tech/"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{color: 'whitesmoke', textDecoration: 'none'}}
-          >
-            Todo App
-            <span className="link-text">
-              view here <FaLink className="nav-link" />
-            </span>
-          </a>
-        </h3>
-        <h4 style={{margin: '5px 0', color: '#555'}}>E-commerce Website</h4>
-        <p style={{fontSize: '14px', color: '#9C9C9C'}}>
-          A dynamic and fully functional todo application with clean UI,
-          responsive design, and user-friendly actions. Built with React, it
-          supports task creation, updates, and deletion, offering a practical
-          productivity tool with smooth interactions and modern styling.
-        </p>
-      </div>
-    ),
-  },
-  {
-    title: '2025',
-    media: {
-      type: 'IMAGE',
-      source: {
-        url:
-          'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838775/Screenshot_2025-12-27_180242_qqqvfi.png',
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838775/Screenshot_2025-12-27_180242_qqqvfi.png',
       },
     },
     cardDetailedText: (
@@ -177,8 +140,7 @@ const items = [
     media: {
       type: 'IMAGE',
       source: {
-        url:
-          'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838929/Screenshot_2025-12-27_180518_nxklab.png',
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1766838929/Screenshot_2025-12-27_180518_nxklab.png',
       },
     },
     cardDetailedText: (

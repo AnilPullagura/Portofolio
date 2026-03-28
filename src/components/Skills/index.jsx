@@ -1,5 +1,6 @@
-import Slider from 'react-slick'
-
+import SliderImport from 'react-slick'
+const Slider =
+  typeof SliderImport === 'function' ? SliderImport : SliderImport.default
 import {BiSolidLike} from 'react-icons/bi'
 import {MdWorkHistory, MdEmail} from 'react-icons/md'
 import {LuMessageCircleMore} from 'react-icons/lu'
