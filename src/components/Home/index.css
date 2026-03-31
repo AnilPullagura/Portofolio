@@ -23,8 +23,8 @@
     padding: 30px;
   }
   .profile-img {
-    height: 90%;
-    width: 80%;
+    height: 40%;
+    width: 60%;
     border-radius: 1000px;
   }
   .text-box {
@@ -109,7 +109,9 @@
 }
 .btn:hover {
   z-index: 1;
-  box-shadow: 40px 0px 100px #abf073, -40px 0px 100px rgb(23, 107, 23);
+  box-shadow:
+    40px 0px 100px #abf073,
+    -40px 0px 100px rgb(23, 107, 23);
 }
 .connect {
   color: whitesmoke;
@@ -159,6 +161,8 @@ a {
 }
 .connect-btn:hover {
   z-index: 1;
-  box-shadow: 40px 0 100px rgb(137, 137, 254), -40px 0 100px rgb(208, 46, 208);
+  box-shadow:
+    40px 0 100px rgb(137, 137, 254),
+    -40px 0 100px rgb(208, 46, 208);
   color: whitesmoke;
 }

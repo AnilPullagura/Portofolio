@@ -53,7 +53,7 @@ const Home = () => {
           <div className="img-box">
             <img
               className="profile-img"
-              src="https://res.cloudinary.com/dxrdjcafp/image/upload/v1766760686/1766759814702_mmh34e.jpg"
+              src="https://res.cloudinary.com/dxrdjcafp/image/upload/v1774960297/potrait_zjt1fe.png"
               alt="profile"
             />
           </div>

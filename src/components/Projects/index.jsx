@@ -6,6 +6,149 @@ import './index.css'
 
 const items = [
   {
+    title: '2026',
+    cardDetailedText: (
+      <div className="chrono-box">
+        <h3 className="title">
+          <a
+            href="https://vantixclient.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{color: 'whitesmoke', textDecoration: 'none'}}
+          >
+            Vantix Ai
+            <span className="link-text">
+              view here <FaLink className="nav-link" />
+            </span>
+          </a>
+        </h3>
+        <h4 style={{margin: '5px 0', color: '#555'}}>
+          Vantix powerful image generation Ai
+        </h4>
+        <p style={{fontSize: '14px', color: '#9C9C9C'}}>
+          Full stack Ai image generater from text .built using
+          react,node,express.
+          <br />
+          powerful multi model Ai application by switching seamlessy between ai
+          models for offering smooth user experience.
+          <br />
+          premium looking ui with animation to match industry standards.
+          <br />
+          models:groq,stability.Ai,groq vison,hugging face ai models
+          <br /> git repo link:
+          <a
+            target="_blank"
+            style={{color: 'whitesmoke', textDecoration: 'none'}}
+            href="https://github.com/AnilPullagura/Vantix"
+          >
+            Click here
+          </a>
+        </p>
+      </div>
+    ),
+    media: {
+      type: 'IMAGE',
+      source: {
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1774958543/Body_1_gi1q58.png',
+      },
+    },
+  },
+  {
+    title: '2026',
+    cardDetailedText: (
+      <div className="chrono-box">
+        <h3 className="title">
+          <a
+            href="https://eventmanager-pink.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{color: 'whitesmoke', textDecoration: 'none'}}
+          >
+            Evently
+            <span className="link-text">
+              view here <FaLink className="nav-link" />
+            </span>
+          </a>
+        </h3>
+        <h4 style={{margin: '5px 0', color: '#555'}}>Mern full stack app</h4>
+        <p style={{fontSize: '14px', color: '#9C9C9C'}}>
+          Full stack Event management web application buit using type script,
+          react, node, express and mongo db.focused on real world scaling and
+          security
+          <br />
+          by limiting requests and defend race conditons while bookings.performs
+          atomic updates and RBAC practices and system designing.
+          <br /> git repo link:
+          <a
+            target="_blank"
+            style={{color: 'whitesmoke', textDecoration: 'none'}}
+            href="https://github.com/AnilPullagura/eventmanager"
+          >
+            Click here
+          </a>
+          <br />
+          Crenditails:only for admin
+          <br />
+          email:eventadmin123@gmail.com
+          <br />
+          password:eventadmin
+        </p>
+      </div>
+    ),
+    media: {
+      type: 'IMAGE',
+      source: {
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1774959241/Body_esvfqf.png',
+      },
+    },
+  },
+  {
+    title: '2026',
+    cardDetailedText: (
+      <div className="chrono-box">
+        <h3 className="title">
+          <a
+            href="https://spotifyclone-beige-pi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{color: 'whitesmoke', textDecoration: 'none'}}
+          >
+            Audio Streaming Web App
+            <span className="link-text">
+              view here <FaLink className="nav-link" />
+            </span>
+          </a>
+        </h3>
+        <h4 style={{margin: '5px 0', color: '#555'}}>Audio Streaming App</h4>
+        <p style={{fontSize: '14px', color: '#9C9C9C'}}>
+          React-based audio streaming app with JWT authentication, protected
+          routes, theme switching, and responsive playback.
+          <br />
+          git link : <br />
+          <a
+            target="_blank"
+            style={{color: 'whitesmoke', textDecoration: 'none'}}
+            href="https://github.com/AnilPullagura/SpotifyClone"
+          >
+            View here
+          </a>
+          <br />
+          Crenditails:
+          <br />
+          username:rahul
+          <br />
+          password:rahul@2021
+        </p>
+      </div>
+    ),
+    media: {
+      type: 'IMAGE',
+      source: {
+        url: 'https://res.cloudinary.com/dxrdjcafp/image/upload/v1768547602/Screenshot_2026-01-16_123843_rofujb.png',
+      },
+    },
+  },
+  {
     title: '2025',
     cardDetailedText: (
       <div className="chrono-box">
@@ -190,6 +333,8 @@ const Projects = () => (
           cardBgColor: '#1b1b1b8a',
           timelineBgColor: '#1b1b1b',
         }}
+        scrollable={false}
+        allowDynamicUpdate={true}
       />
     </div>
     <div className="project-container-mobile">
@@ -198,9 +343,10 @@ const Projects = () => (
         mode="VERTICAL"
         theme={{
           cardBgColor: '#1b1b1b8a',
-
           timelineBgColor: '#1b1b1b',
         }}
+        scrollable={false}
+        allowDynamicUpdate={true}
       />
     </div>
   </div>

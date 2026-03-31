@@ -5,6 +5,7 @@ import {BiSolidLike} from 'react-icons/bi'
 import {MdWorkHistory, MdEmail} from 'react-icons/md'
 import {LuMessageCircleMore} from 'react-icons/lu'
 import {HiBadgeCheck} from 'react-icons/hi'
+import {BiLogoTypescript} from 'react-icons/bi'
 import {
   FaPhoneAlt,
   FaMapMarkerAlt,
@@ -56,6 +57,11 @@ const hireList = [
 ]
 
 const skillslist = [
+  {
+    id: 0,
+    title: 'TypeScript',
+    icon: <BiLogoTypescript className="skill-icon" />,
+  },
   {
     id: 1,
     title: 'React',

@@ -8,6 +8,8 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    height: auto;
+    overflow: visible;
   }
   .project-container-mobile {
     display: none;
@@ -45,9 +47,28 @@
   }
   .project-container-mobile {
     margin-top: 20px;
+    height: auto;
+    overflow: visible;
   }
 }
 .link-text {
   font-size: 14px;
   color: gray;
+}
+
+/* Deep fix for react-chrono to allow page scroll */
+.project-container .chrono-container,
+.project-container-mobile .chrono-container,
+.timeline-main-wrapper,
+.timeline-vertical-layout,
+.vertical-item-container {
+  overflow: visible !important;
+  height: auto !important;
+  min-height: unset !important;
+}
+
+/* Ensure images don't overflow their containers badly */
+.chrono-box img {
+  max-width: 100%;
+  height: auto;
 }
